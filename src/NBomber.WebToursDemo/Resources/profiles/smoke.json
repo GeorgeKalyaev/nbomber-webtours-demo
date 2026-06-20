@@ -1,0 +1,14 @@
+{
+  "TestName": "smoke_uc01",
+  "GlobalSettings": {
+    "ScenariosSettings": [
+      {
+        "ScenarioName": "BuyWithoutPromocodeAppLight",
+        "WarmUpDuration": "00:00:00",
+        "LoadSimulationsSettings": [
+          { "KeepConstant": [1, "00:02:00"] }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "TestName": "stepped_profile_both",
+  "GlobalSettings": {
+    "ScenariosSettings": [
+      {
+        "ScenarioName": "BuyWithoutPromocodeAppLight",
+        "WarmUpDuration": "00:00:00",
+        "LoadSimulationsSettings": [
+          { "RampingConstant": [3, "00:00:10"] },
+          { "KeepConstant": [3, "00:01:00"] },
+          { "RampingConstant": [6, "00:00:10"] },
+          { "KeepConstant": [6, "00:01:00"] },
+          { "RampingConstant": [9, "00:00:10"] },
+          { "KeepConstant": [9, "00:01:00"] },
+          { "RampingConstant": [12, "00:00:10"] },
+          { "KeepConstant": [12, "00:01:00"] },
+          { "RampingConstant": [15, "00:00:10"] },
+          { "KeepConstant": [15, "00:00:10"] }
+        ]
+      },
+      {
+        "ScenarioName": "UC02_Cancel_One_Ticket",
+        "WarmUpDuration": "00:00:00",
+        "LoadSimulationsSettings": [
+          { "RampingConstant": [2, "00:00:10"] },
+          { "KeepConstant": [2, "00:01:00"] },
+          { "RampingConstant": [3, "00:00:10"] },
+          { "KeepConstant": [3, "00:01:00"] },
+          { "RampingConstant": [5, "00:00:10"] },
+          { "KeepConstant": [5, "00:01:00"] },
+          { "RampingConstant": [6, "00:00:10"] },
+          { "KeepConstant": [6, "00:01:00"] },
+          { "RampingConstant": [8, "00:00:10"] },
+          { "KeepConstant": [8, "00:00:10"] }
+        ]
+      }
+    ]
+  }
+}
